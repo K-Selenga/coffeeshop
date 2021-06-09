@@ -1,0 +1,81 @@
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+body {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+.cards__blue {
+  background-color: burlywood;
+  color: beige;
+  width: 35%;
+}
+.cards__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.media__border {
+  border-top: 1px solid white;
+  padding-top: 5px;
+}
+.cards__brown {
+  background-color: #654321;
+
+  color: beige;
+}
+
+.header {
+  background: url(./src/bg.jpg) left top no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-line {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.last-line {
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin-top: 5rem;
+}
+#myVideo {
+  position: relative;
+  max-height: 50vh;
+  width: 100%;
+  z-index: -5;
+}
